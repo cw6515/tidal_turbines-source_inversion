@@ -40,6 +40,7 @@ In order to specify arguments, run the file with argparse specifications, ie:
 
 ```python source_inversion_pipeline.py --n=8 --m=32 --two_step --b_and_b```
 
+The results of the optimization routine will be printed out to the terminal in which the file is run.
 
 ### Tidal Stream Turbine Optimization
 There is one main file ```run_tidal_turbine_pipeline.py```, four folders containing files used in various computational meshes,
@@ -70,7 +71,10 @@ The parameters are:
 - timesteps: Number of years of which to evaluate profit of the farm, default=5
 - velocity: Constant velocity of inflow from the western boundary of the farm (in m/s), default=2
 
+The results of the optimization routine will be printed out to the terminal in which the file is run.
+
 ##### Please note that much of this work is based off of the existing open-source software opentidalfarm:
 Opentidalfarm has excellent documentation and may be used as a reference framework for the discrete and continuous models.
+
 
 http://opentidalfarm.readthedocs.io/en/latest/
