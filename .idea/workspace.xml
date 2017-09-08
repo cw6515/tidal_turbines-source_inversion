@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f8371bd-686a-44d3-a5d6-d7d6fa416c76" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="farm_and_turbine_infra_helpers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/farm_and_turbine_infra_helpers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="509" column="13" lean-forward="false" selection-start-line="509" selection-start-column="13" selection-end-line="509" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryReducedFunctional.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/BinaryReducedFunctional.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="param_and_farm_setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/param_and_farm_setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="381" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_tidal_turbine_pipeline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_tidal_turbine_pipeline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="88" column="104" lean-forward="false" selection-start-line="88" selection-start-column="104" selection-end-line="88" selection-end-column="104" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binary_functionals.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/binary_functionals.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="casadi_bnb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source_inversion/casadi_bnb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3271">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_optimization_functions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/main_optimization_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>farm</find>
+      <find>model</find>
+      <find>FArmdo</find>
+      <find>coupled</find>
+      <find>optimi</find>
+      <find>site_bounda</find>
+      <find>k</find>
+      <find>constraints</find>
+      <find>minimum_distance_c</find>
+      <find>numpy</find>
+      <find>binary</find>
+      <find>'binary</find>
+      <find>&quot;binary</find>
+      <find>optimize_</find>
+      <find>binary_con</find>
+      <find>optimization</find>
+      <find>binary_co</find>
+      <find>optimize</find>
+      <find>binaryturb</find>
+      <find>32</find>
+      <find>probl</find>
+      <find>model_t</find>
+      <find>FarmDomain</find>
+      <find>FArmdomain</find>
+      <find>tolerance</find>
+      <find>Power</find>
+      <find>print</find>
+      <find>BinaryPo</find>
+      <find>BinaryPower</find>
+      <find>power</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source_inversion/__init__.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/__init__.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/__init__.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/discrete_turbine_helpers.py" />
+        <option value="$PROJECT_DIR$/meshes/__init__.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/tidal_turbine_helpers.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/turbine_optimization_helpers.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/cont_and_twostep_helpers.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/nigger.py" />
+        <option value="$PROJECT_DIR$/middle_mesh/mesh.geo" />
+        <option value="$PROJECT_DIR$/small_mesh/mesh.geo" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/param_and_farm_setup.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/BinaryMinimumDistance.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/farm_and_turbine_infra_helpers.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/BinaryReducedFunctional.py" />
+        <option value="$PROJECT_DIR$/source_inversion_pipeline.py" />
+        <option value="$PROJECT_DIR$/source_inversion/casadi_bnb.py" />
+        <option value="$PROJECT_DIR$/source_inversion/source_inversion_helper_functions.py" />
+        <option value="$PROJECT_DIR$/run_tidal_turbine_pipeline.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/binary_functionals.py" />
+        <option value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/main_optimization_functions.py" />
+        <option value="$PROJECT_DIR$/requirements.yaml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="53" />
+    <option name="width" value="1920" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mipdeco_opentidalfarm_classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mipdeco_opentidalfarm_classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helper_functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="middle_mesh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="large_mesh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Github_thesis_code_COPY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alt_large_mesh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/meshes/small_mesh" />
+      <recent name="$PROJECT_DIR$/meshes/middle_mesh" />
+      <recent name="$PROJECT_DIR$/meshes/large_mesh" />
+      <recent name="$PROJECT_DIR$/meshes/alt_large_mesh" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.nigger">
+    <configuration default="false" name="source_inversion_pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source_inversion_pipeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main_optimization_functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/main_optimization_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="nigger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/nigger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Github_thesis_code_COPY" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.source_inversion_pipeline" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main_optimization_functions" />
+      <item index="2" class="java.lang.String" itemvalue="Python.nigger" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.nigger" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main_optimization_functions" />
+        <item index="2" class="java.lang.String" itemvalue="Python.source_inversion_pipeline" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f8371bd-686a-44d3-a5d6-d7d6fa416c76" name="Default" comment="" />
+      <created>1504376355232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504376355232</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="53" width="1920" height="1028" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32411504" sideWeight="0.10384818" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.4939378" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32411504" sideWeight="0.89615184" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853982" sideWeight="0.49815497" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933628" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32411504" sideWeight="0.10384818" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853982" sideWeight="0.49815497" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32411504" sideWeight="0.89615184" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.4939378" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39933628" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/farm_and_turbine_infra_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="147" column="28" lean-forward="false" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/param_and_farm_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="85" lean-forward="false" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_tidal_turbine_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/main_optimization_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/binary_functionals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="83" column="29" lean-forward="true" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_inversion/source_inversion_helper_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="71" column="29" lean-forward="true" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="125" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_inversion/casadi_bnb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/farm_and_turbine_infra_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2628">
+          <caret line="146" column="14" lean-forward="false" selection-start-line="146" selection-start-column="14" selection-end-line="146" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_tidal_turbine_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/binary_functionals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_inversion/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meshes/discrete_mesh/mesh.geo" />
+    <entry file="file://$PROJECT_DIR$/meshes/testmesh/mesh.geo" />
+    <entry file="file://$PROJECT_DIR$/meshes/large_mesh/mesh.geo" />
+    <entry file="file://$PROJECT_DIR$/meshes/alt_large_mesh/Makefile" />
+    <entry file="file://$PROJECT_DIR$/meshes/alt_large_mesh/mesh.msh" />
+    <entry file="file://$PROJECT_DIR$/meshes/alt_large_mesh/alt_large_mesh.xml" />
+    <entry file="file://$PROJECT_DIR$/meshes/alt_large_mesh/mesh.geo" />
+    <entry file="file://$PROJECT_DIR$/meshes/small_mesh/mesh.geo" />
+    <entry file="file://$PROJECT_DIR$/meshes/middle_mesh/mesh.geo" />
+    <entry file="file://$PROJECT_DIR$/meshes/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/meshes/alt_large_mesh/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/meshes/middle_mesh/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/meshes/small_mesh/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/meshes/large_mesh/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/meshes/alt_large_mesh/convert_to_new_xml.py" />
+    <entry file="file://$PROJECT_DIR$/alt_large_mesh/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/turbine_optimization_helpers.py" />
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/cont_and_twostep_helpers.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="973" column="0" lean-forward="false" selection-start-line="973" selection-start-column="0" selection-end-line="973" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/opentidalfarm/functionals/prototype_functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/nigger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/opentidalfarm/functionals/power_functionals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#355#1304#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optimal_turbines_discrete_algorithm000000.vtu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle_mesh/mesh.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/small_mesh/mesh.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alt_large_mesh/mesh.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/large_mesh/mesh.geo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/BinaryMinimumDistance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-872">
+          <caret line="5" column="98" lean-forward="false" selection-start-line="5" selection-start-column="98" selection-end-line="5" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/farm_and_turbine_infra_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="509" column="13" lean-forward="false" selection-start-line="509" selection-start-column="13" selection-end-line="509" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/BinaryReducedFunctional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_inversion/casadi_bnb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3271">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_inversion/source_inversion_helper_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="353" column="88" lean-forward="false" selection-start-line="353" selection-start-column="88" selection-end-line="353" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source_inversion_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="923">
+          <caret line="62" column="47" lean-forward="false" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_tidal_turbine_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="88" column="104" lean-forward="false" selection-start-line="88" selection-start-column="104" selection-end-line="88" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/param_and_farm_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="381" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/binary_functionals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mipdeco_opentidalfarm_classes/helper_functions/main_optimization_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="57" column="45" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
