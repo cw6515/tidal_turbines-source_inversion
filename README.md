@@ -13,7 +13,7 @@ in two dimensions, and another for running optimization algorithms for tidal str
 - The contents of the requirements.yaml file
 
 1) If you do not have the open-source package manager anaconda, install it by going to 
-https://docs.continuum.io/anaconda/install/ and following the relevant links for you operating system.
+https://docs.continuum.io/anaconda/install/ and following the relevant links for your operating system.
 
 2) Once installed, create a new virtual environment with the project requirements by opening a terminal and running
 ```conda env create -f requirements.yaml tidal_farm``` where ```tidal_farm``` is the name of the new virtual environment.
