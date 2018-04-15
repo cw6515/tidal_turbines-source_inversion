@@ -5,15 +5,27 @@ from BinaryReducedFunctional import BinaryReducedFunctional
 numpy.set_printoptions(threshold=numpy.nan)
 
 
-CONSTANTS = {'viscosity': Constant(2.0), 'depth': Constant(50), 'friction': Constant(0.0025), 'efficiency': .5,
-			'LCOE': 330.51, 'timesteps': 5, 'discount_rate': .1, 'cost_coeff': 2971450.19256, 'iternum': 25,
-			'tolerance': 2.5e-6}
+CONSTANTS = {
+	'viscosity': Constant(2.0), 
+	'depth': Constant(50), 
+	'friction': Constant(0.0025), 
+	'efficiency': .5,
+	'LCOE': 330.51, 
+	'timesteps': 5, 
+	'discount_rate': .1, 
+	'cost_coeff': 2971450.19256, 
+	'iternum': 25,
+	'tolerance': 2.5e-6
+}
 
-# adjust the farm area if so desired -- [x_start, x_end, y_start, y_end]
-MESH_DICT = {'small_mesh': [200, 600, 200, 400],
-			 'middle_mesh': [800, 1600, 800, 1600],
-			 'large_mesh': [1100, 1900, 1200, 1800],
-			 'alt_large_mesh': [1100, 1900, 1200, 1800]}
+# Adjust the farm area if so desired -- [x_start, x_end, y_start, y_end].
+# Note that the units are in meters.
+MESH_DICT = {
+	'small_mesh': [200, 600, 200, 400],
+	'middle_mesh': [800, 1600, 800, 1600],
+	'large_mesh': [1100, 1900, 1200, 1800],
+	'alt_large_mesh': [1100, 1900, 1200, 1800]
+}
 
 def update_user_params(user_params, param_dict, constants=CONSTANTS):
 	"""Combine user-supplied params and default params into a single dict"""
@@ -45,10 +57,11 @@ def get_domain(mesh_name):
 		farm_area: A list delineating the farm subdomain of the format [x_start, x_end, y_start, y_end]
 	"""
 	if mesh_name not in ['alt_large_mesh', 'large_mesh', 'middle_mesh', 'small_mesh']:
-		raise NotImplementedError('There is currently no support for user-defined meshes. If desired, use and define a '
-								  'gmsh mesh object and convert it to xml format by running the code in any of the '
-								  'mesh folders Makefile. Currently supported meshnames are given in the click.help '
-								  'module for the mesh parameter')
+		raise NotImplementedError(u'There is currently no support for user-defined meshes. '
+					  u'If desired, use and define a gmsh mesh object and convert '
+					  u'it to xml format by running the code in any of the mesh folders'
+					  u'Makefile. Currently supported meshnames are given in the click.help '
+				          u'module for the mesh parameter')
 	farm_area = get_farm_area(mesh_name)
 	mesh_path = '{}/mesh.xml'.format(os.path.abspath(mesh_name))
 	domain = FileDomain(mesh_path)
@@ -79,21 +92,20 @@ def get_boundary_conditions(velocity=2, sinusoidal=False):
 
 
 def get_model_turbine_params(model_turbine):
-	"""Get turbine parameters from an idealized model turbine. See BinaryModelTurbine for all params"""
-	params = {'cost_coeff': model_turbine.discounted_cost_coefficient,
-			  'bump_height': model_turbine.bump_height,
-			  'diameter': model_turbine.blade_diameter,
-			  'min_dist': model_turbine.minimum_distance,
-			  'max_smeared_friction': model_turbine.maximum_smeared_friction,
-			  'friction': model_turbine.friction
-			  }
+	"""Get turbine parameters from an idealized model turbine. See BinaryModelTurbine for all params."""
+	return {
+		'cost_coeff': model_turbine.discounted_cost_coefficient,
+		'bump_height': model_turbine.bump_height,
+		'diameter': model_turbine.blade_diameter,
+		'min_dist': model_turbine.minimum_distance,
+		'max_smeared_friction': model_turbine.maximum_smeared_friction,
+		'friction': model_turbine.friction
+	}
 
-	return params
 
-
-def get_sw_problem_params(boundary_conditions, domain, viscosity=Constant(2.0), depth=Constant(50),
-						  friction=Constant(0.0025)):
-	"""Get basic params for a tidal turbine optimization problem
+def get_sw_problem_params(boundary_conditions, domain, viscosity=Constant(2.0), 
+			  depth=Constant(50), friction=Constant(0.0025)):
+	"""Get basic params for a tidal turbine optimization problem.
 
 	Args:
 		boundary_conditions: A set of boundary conditions defined by get_boundary_conditions()
@@ -103,7 +115,8 @@ def get_sw_problem_params(boundary_conditions, domain, viscosity=Constant(2.0), 
 		friction: Constant background friction
 
 	Returns:
-		prob_params: A class with appropriate problem parameters for solving a tidal stream turbine optimization problem
+		prob_params: A class with appropriate problem parameters for solving a tidal stream turbine 
+		optimization problem
 	"""
 	prob_params = SteadySWProblem.default_parameters()
 	prob_params.domain = domain
@@ -275,11 +288,12 @@ def get_turbines_and_farm(user_params, regular_layout=True, locs=None, continuou
 
 	else:
 		turbine = BumpTurbine(friction=friction, diameter=diameter, minimum_distance=minimum_distance)
-		t_farm = RectangularFarm(domain, site_x_start=farm_area[0], site_x_end=farm_area[1], site_y_start=farm_area[2],
-								 site_y_end=farm_area[3], turbine=turbine)
+		t_farm = RectangularFarm(
+			domain, site_x_start=farm_area[0], site_x_end=farm_area[1], site_y_start=farm_area[2],
+		        site_y_end=farm_area[3], turbine=turbine)
 		place_turbines_in_farm(regular_layout, num_turbines, t_farm, locs)
 
-	# mark subdomain to allow the farm to discriminate between farm/non-farm domain regions
+	# Mark subdomain to allow the farm to discriminate between farm/non-farm domain regions.
 	mark_farm_subdomain(farm_area, domain, t_farm)
 
 	prob_params = user_params['prob_params']
@@ -292,7 +306,7 @@ def get_turbines_and_farm(user_params, regular_layout=True, locs=None, continuou
 
 
 def optimize_turbine_farm(turbine_farm, problem_solver, controls, functional, revenue_params, algo_name):
-	"""Optimize a discrete, MIPDECO, or continuous turbine farm
+	"""Optimize a discrete, MIPDECO, or continuous turbine farm.
 
 	Args:
 		turbine_farm: A opentidalfarm Farm object (could be a ContFarm or BinaryFarm)
@@ -305,7 +319,7 @@ def optimize_turbine_farm(turbine_farm, problem_solver, controls, functional, re
 
 	Returns:
 		output_dict: A dictionary with the algorithm name as the key, and dictionary as its value.
-					 The keys of this nested dict are 'profit', 'runtime', 'total_friction', 'num_turbines'
+			     The keys of this nested dict are 'profit', 'runtime', 'total_friction', and 'num_turbines'.
 	"""
 	iternum = revenue_params['iters']
 	tolerance = revenue_params['tolerance']
@@ -319,9 +333,10 @@ def optimize_turbine_farm(turbine_farm, problem_solver, controls, functional, re
 
 	if algo_name == 'discrete' or algo_name == 'full_two_step':
 		lb, ub = turbine_farm.site_boundary_constraints()
-		ieq = turbine_farm.minimum_distance_constraints()
+		minimum_distance_constraints = turbine_farm.minimum_distance_constraints()
 		start = timer.time()
-		maximize(rf, bounds=[lb, ub], constraints=ieq, method="SLSQP", options={'maxiter': iternum, 'ftol': tolerance})
+		maximize(rf, bounds=[lb, ub], constraints=minimum_distance_constraints, method="SLSQP", 
+				 options={'maxiter': iternum, 'ftol': tolerance})
 		runtime = timer.time() - start
 		total_friction = 0
 		num_turbines = turbine_farm.number_of_turbines
@@ -329,7 +344,7 @@ def optimize_turbine_farm(turbine_farm, problem_solver, controls, functional, re
 	elif algo_name == 'cont':
 
 		def cb(w):
-			"""callback function for continuous turbine farms"""
+			"""A callback function for continuous turbine farms"""
 			total_friction = assemble(turbine_farm.friction_function * turbine_farm.site_dx(1))
 			print "The total friction is:", float(total_friction)
 
@@ -352,7 +367,7 @@ def optimize_turbine_farm(turbine_farm, problem_solver, controls, functional, re
 		runtime = timer.time() - start
 		num_turbines = sum(turbine_farm.control_array)  # optimal num of turbines is sum of binary variables
 
-		# extract optimal binary variables and their corresponding locations
+		# Extract optimal binary variables and their corresponding locations.
 		binvars = copy.deepcopy(turbine_farm._parameters['binary'])
 		locs = copy.deepcopy(turbine_farm._parameters['position'])
 		binaries = sorted(zip(binvars, locs), key=lambda x: x[0])
@@ -362,16 +377,16 @@ def optimize_turbine_farm(turbine_farm, problem_solver, controls, functional, re
 	profit = -rf(turbine_farm.control_array)
 
 	if algo_name == 'discrete' or algo_name == 'full_two_step':
-		# discrete methods are given a number of turbines and maximize a revenue functional -- need to include cost
+		# Discrete methods are given a number of turbines and maximize a revenue functional -- need to include cost
 		profit = profit - revenue_params['cost'] * num_turbines
 
 	output_dict = {
-					algo_name: {
-						'profit': profit,
-						'runtime': runtime,
-						'total_friction': total_friction,
-						'num_turbines': num_turbines
-					}
+		algo_name: {
+			'profit': profit,
+	   		'runtime': runtime,
+		    'total_friction': total_friction,
+		    'num_turbines': num_turbines
+		}
 	}
 
 	# save file to the cwd
