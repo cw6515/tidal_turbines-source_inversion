@@ -143,16 +143,17 @@ def get_algorithm_params(mesh_name, model_turbine, constants_dict=CONSTANTS):
 	"""
 	domain, farm_area = get_domain(mesh_name)
 	bcs = get_boundary_conditions()
-	problem_params = get_sw_problem_params(bcs, domain, constants_dict['viscosity'],
-										 constants_dict['depth'], constants_dict['friction'])
+	problem_params = get_sw_problem_params(
+		bcs, domain, constants_dict['viscosity'], constants_dict['depth'], constants_dict['friction'])
 	model_turbine_params = get_model_turbine_params(model_turbine)
-	param_dict = {'model_turbine_params': model_turbine_params,
-				  'domain': domain,
-				  'bcs': bcs,
-				  'prob_params': problem_params,
-				  'farm_area': farm_area
+	
+	return {
+		'model_turbine_params': model_turbine_params,
+		'domain': domain,
+		'bcs': bcs,
+		'prob_params': problem_params,
+		'farm_area': farm_area
 	}
-	return param_dict
 
 
 def mark_farm_subdomain(farm_area, domain, farm):
